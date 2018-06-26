@@ -1,9 +1,13 @@
 {
     "name": "inksea-theme",
     "displayName": "inkSea Theme",
-    "description": "Easy on the Eyes Neutral Theme",
+    "description": "Easy on the Eyes, Soft on the Brain, Dark Theme",
     "version": "0.0.1",
     "publisher": "inksea",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/inksea/inksea-theme"
+    },
     "engines": {
         "vscode": "^1.24.0"
     },
