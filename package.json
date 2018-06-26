@@ -1,0 +1,22 @@
+{
+    "name": "inksea-theme",
+    "displayName": "inkSea Theme",
+    "description": "Easy on the Eyes Neutral Theme",
+    "version": "0.0.1",
+    "publisher": "inksea",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "_inkSea Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/_inkSea Theme-color-theme.json"
+            }
+        ]
+    }
+}
