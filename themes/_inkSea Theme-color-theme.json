@@ -577,7 +577,7 @@
 	  "list.inactiveSelectionBackground": "#292A2B",
 	  "list.inactiveSelectionForeground": "#63e6be",
 	  "list.highlightForeground": "#6FC1FF",
-	  "sideBar.background": "#242526",
+	  "sideBar.background": "#0f1419",
 	  "sideBar.foreground": "#BBBBBB",
 	  "sideBar.border": "#373B41",
 	  "scrollbar.shadow": "#222223",
