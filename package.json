@@ -2,7 +2,7 @@
     "name": "inksea-theme",
     "displayName": "inkSea Theme",
     "description": "Easy on the Eyes, Soft on the Brain, Dark Theme",
-    "version": "0.0.5",
+    "version": "1.1.2",
     "publisher": "inksea",
     "repository": {
         "type": "git",
@@ -14,6 +14,12 @@
     "categories": [
         "Themes"
     ],
+    "icon": "images/sigil.png",
+    "homepage": "https://github.com/inksea/inksea-theme",
+    "gallerBanner": {
+        "color": "#2a2c2d",
+        "theme": "dark"
+    },
     "contributes": {
         "themes": [
             {
