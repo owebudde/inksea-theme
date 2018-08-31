@@ -1,5 +1,7 @@
 # _inkSea Theme
-A minimal, dark syntax theme. Easy on the eyes, soft on the brain. Light alacritous pastel colors on a solid deep background. Based off of tinkertrain's [Panda Theme](https://github.com/tinkertrain/panda-syntax-vscode)
+
+A minimal, pastel dark syntax theme.
+Easy on the eyes, soft on the brain. Light alacritous pastel colors on a solid deep background.
 
 ![Sigil for _inkSea Theme](https://github.com/inksea/inksea-theme/blob/master/images/sigil.png "Sigil")
 

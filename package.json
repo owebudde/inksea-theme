@@ -1,15 +1,15 @@
 {
     "name": "inksea-theme",
     "displayName": "inkSea Theme",
-    "description": "Easy on the Eyes, Soft on the Brain, Dark Theme",
-    "version": "1.1.2",
+    "description": "Easy on the Eyes, Soft on the Brain, Dark Pastel Theme",
+    "version": "1.2.1",
     "publisher": "inksea",
     "repository": {
         "type": "git",
         "url": "https://github.com/inksea/inksea-theme"
     },
     "engines": {
-        "vscode": "^1.24.0"
+        "vscode": "^1.27.0-insider"
     },
     "categories": [
         "Themes"
