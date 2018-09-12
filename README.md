@@ -5,7 +5,9 @@ Easy on the eyes, soft on the brain. Light alacritous pastel colors on a solid d
 
 ![Sigil for _inkSea Theme](https://cdn.rawgit.com/inksea/inksea-theme/b5aff436/images/sigil.png "Sigil")
 
-![Screenshot of _inkSea Theme](https://github.com/inksea/inksea-theme/blob/master/images/inksea-theme-screenshot.png "Screenshot")
+![Screenshot of _inkSea Theme - Tight](https://cdn.rawgit.com/inksea/inksea-theme/fedf8e43/images/inksea-screenshot-tight.png "Screenshot - tight with react.js")
+
+![Screenshot of _inkSea Theme](https://cdn.rawgit.com/inksea/inksea-theme/fedf8e43/images/inksea-theme-screenshot-1.png "Screenshot - large, full screen")
 
 ## Install
 Through VSCode marketplace.
