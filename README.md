@@ -9,6 +9,7 @@ Easy on the eyes, soft on the brain. Light alacritous pastel colors on a solid d
 
 ![Screenshot of _inkSea Theme](https://cdn.rawgit.com/inksea/inksea-theme/fedf8e43/images/inksea-theme-screenshot-1.png "Screenshot - large, full screen")
 
+
 ## Install
 Through VSCode marketplace.
 
