@@ -3,7 +3,7 @@
 A minimal, pastel dark syntax theme.
 Easy on the eyes, soft on the brain. Light alacritous pastel colors on a solid deep background.
 
-![Sigil for _inkSea Theme](https://github.com/inksea/inksea-theme/blob/master/images/sigil.png "Sigil")
+![Sigil for _inkSea Theme](https://cdn.rawgit.com/inksea/inksea-theme/b5aff436/images/sigil.png "Sigil")
 
 ![Screenshot of _inkSea Theme](https://github.com/inksea/inksea-theme/blob/master/images/inksea-theme-screenshot.png "Screenshot")
 
