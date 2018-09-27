@@ -9,3 +9,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 1.2.4
 - Show screenshots in VS Marketplace
 - Add italics elements
+
+## 1.2.5
+- Added some new graphics
