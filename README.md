@@ -3,7 +3,7 @@
 A minimal, pastel dark syntax theme.
 Easy on the eyes, soft on the brain. Light alacritous pastel colors on a solid deep background.
 
-![Promo for _inkSea Theme]( "Promo graphic")
+![Promo for _inkSea Theme](https://github.com/inksea/inksea-theme/blob/master/images/inksea-theme-promo.png "Promo graphic")
 
 ![Screenshot of _inkSea Theme - Tight](https://cdn.rawgit.com/inksea/inksea-theme/fedf8e43/images/inksea-screenshot-tight.png "Screenshot - tight with react.js")
 
