@@ -16,7 +16,7 @@ Through VSCode marketplace.
 ## My Settings for the Screenshot
 1. Rainbow Indent
 2. Bracket Colorizer
-3. A dank font
+3. Dank Mono
 
 ## Activate
 Preferences > Color Theme
