@@ -437,7 +437,22 @@
         {
             "scope": "entity.name.tag.js.jsx, support.class.component.js.jsx",
             "settings": {
-                "foreground": "#ef5285"
+                "foreground": "#ef5285",
+                "fontStyle": "italic"
+            }
+        },
+        { // expressions in jsx
+            "scope": "meta.embedded.expression.js",
+            "settings": {
+                "foreground": "#FF9AC1"
+                // "fontStyle":
+            }
+        },
+        {
+            "scope": "entity.name.tag.open.jsx, entity.name.tag.close.jsx",
+            "settings": {
+                "foreground": "#ef8390",
+                "fontStyle": "italic"
             }
         },
         {
