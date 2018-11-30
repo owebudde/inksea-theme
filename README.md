@@ -1,4 +1,4 @@
-# _inkSea Theme
+# _inkSea Theme for VSCode
 
 A minimal, pastel dark syntax theme.
 Easy on the eyes, soft on the brain. Light alacritous pastel colors on a solid deep background.
