@@ -3,11 +3,11 @@
 A minimal, pastel dark syntax theme.
 Easy on the eyes, soft on the brain. Light alacritous pastel colors on a solid deep background.
 
-![Promo for _inkSea Theme](https://cdn.rawgit.com/inksea/inksea-theme/83095fae/images/inksea-theme-promo.png "Promo graphic")
+![Promo for _inkSea Theme](https://res.cloudinary.com/inksea/image/upload/v1543604481/inkSea/inksea-theme-promo.png "Promo graphic")
 
-![Screenshot of _inkSea Theme - Tight](https://cdn.rawgit.com/inksea/inksea-theme/fedf8e43/images/inksea-screenshot-tight.png "Screenshot - tight with react.js")
+![Screenshot of _inkSea Theme - Tight](https://res.cloudinary.com/inksea/image/upload/c_scale,w_2048/v1543604482/inkSea/inksea-preview-2.png "Screenshot - tight with react.js")
 
-![Screenshot of _inkSea Theme](https://cdn.rawgit.com/inksea/inksea-theme/fedf8e43/images/inksea-theme-screenshot-1.png "Screenshot - large, full screen")
+![Screenshot of _inkSea Theme](https://res.cloudinary.com/inksea/image/upload/c_scale,w_2048/v1543604482/inkSea/inksea-preview-1.png "Screenshot - large, full screen")
 
 
 ## Install

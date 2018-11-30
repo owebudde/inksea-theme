@@ -28,5 +28,8 @@
                 "path": "./themes/_inkSea Theme-color-theme.json"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^1.53.2"
     }
 }
