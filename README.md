@@ -13,7 +13,7 @@ Easy on the eyes, soft on the brain. Light alacritous pastel colors on a solid d
 ## Install
 Through VSCode marketplace.
 
-## My Settings for the Screenshot
+## My Settings
 ```javascript
 {
     "gitlens.advanced.messages": {
