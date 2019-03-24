@@ -2,7 +2,7 @@
     "name": "inksea-theme",
     "displayName": "inkSea Theme",
     "description": "Easy on the Eyes, Soft on the Brain, Dark Pastel Theme",
-    "version": "1.3.3",
+    "version": "2.0.1",
     "publisher": "inksea",
     "repository": {
         "type": "git",
@@ -26,6 +26,11 @@
                 "label": "_inkSea Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/_inkSea Theme-color-theme.json"
+            },
+            {
+                "label": "_inkSea Theme Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/_inkSea Theme Dark-color-theme.json"
             }
         ]
     },
