@@ -13,6 +13,16 @@ Easy on the eyes, soft on the brain. Light alacritous pastel colors on a solid d
 ## Install
 Through VSCode marketplace.
 
+## New
+1. Dark version added *subject to change
+
+## Activate
+Preferences > Color Theme
+Select Inksea
+
+## 🌊 About Inksea
+A tender loving ocean of words with a nurturing swell.
+
 ## My Settings
 ```javascript
 {
@@ -79,11 +89,3 @@ Through VSCode marketplace.
     "javascript.updateImportsOnFileMove.enabled": "always"
 }
 ```
-
-## Activate
-Preferences > Color Theme
-Select Inksea
-
-
-## 🌊 About Inksea
-A tender loving ocean of words with a nurturing swell.
