@@ -3,6 +3,9 @@ All notable changes to the "inksea-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.0.3 March 28 2019
+- Fix some highlighting issues in Dark theme
+
 ## 2.0.2 March 24 2019
 - WIP: new **dark** variation
   - Dimmed colors to reduce eyestrain
