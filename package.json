@@ -25,12 +25,17 @@
             {
                 "label": "_inkSea Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/_inkSea Theme-color-theme.json"
+                "path": "./themes/primary-color-theme.json"
             },
             {
-                "label": "_inkSea Theme Dark",
+                "label": "_inkSea Theme - Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/_inkSea Theme Dark-color-theme.json"
+                "path": "./themes/dark-color-theme.json"
+            },
+            {
+                "label": "_inkSea Theme - Midnight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/midnight-color-theme.json"
             }
         ]
     },
