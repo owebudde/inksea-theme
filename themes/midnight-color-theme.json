@@ -108,18 +108,6 @@
 			}
 		},
 		{
-			"scope": "invalid.illegal",
-			"settings": {
-				"border-bottom": "1px dashed #ef5285"
-			}
-		},
-		{
-			"scope": "invalid.deprecated",
-			"settings": {
-				"background-foreground": "rgba(255, 44, 109, 0.62)"
-			}
-		},
-		{
 			"scope": "string",
 			"settings": {
 				"foreground": "#63e6be"
@@ -621,10 +609,8 @@
 		"extensionButton.prominentForeground": "#FFFFFF",
 		"extensionButton.prominentBackground": "#45A9F9",
 		"extensionButton.prominentHoverBackground": "#676B79",
-		// "editorError.foreground": "#ef5285",
-		"editorError.border": "#ef5285",
-		// "editorWarning.foreground": "#FFCC95",
-		"editorWarning.border": "#FFCC95",
+		"editorError.foreground": "#ef5285",
+		"editorWarning.foreground": "#FFCC95",
 		"editorGutter.modifiedBackground": "#FFCC95",
 		"editorGutter.addedBackground": "#63e6be",
 		"editorGutter.deletedBackground": "#ef5285",

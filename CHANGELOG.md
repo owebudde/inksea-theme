@@ -6,6 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 2.1.0 May 12 2019
 - _WIP_ Fix some highlighting issues in Dark theme
 - Added Midnight Theme
+- Fix Error Highlighting in all themes
 
 ## 2.0.3 March 28 2019
 - Fix some highlighting issues in Dark theme
