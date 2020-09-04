@@ -1,3 +1,6 @@
-node_modules
+node_modules/
+/theme/
+/tests/
+bin/
 *.vsix
 _tests/
