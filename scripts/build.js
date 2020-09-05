@@ -10,8 +10,13 @@ if (!fs.existsSync(THEME_DIR)) {
 
 module.exports = async () => {
 	// const { base, soft } = await generate();
-	const test = await generate();
-	console.log('build.js--generate:: ', test);
+	const themeSchemas = await generate();
+	// console.log('build.js--themeSchemas:: ', themeSchemas);
+
+	themeSchemas.forEach(schema => {
+		console.log('schema::', schema);
+	});
+
 	// return Promise.all([
 	// 	fs.promises.writeFile(
 	// 		path.join(THEME_DIR, 'dracula.json'),
