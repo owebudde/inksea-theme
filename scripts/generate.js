@@ -1,7 +1,8 @@
-const { readFile } = require('fs').promises;
+const { promises: fs } = require('fs');
 const { join } = require('path');
 const { Type, Schema, load } = require('js-yaml');
 const tinycolor = require('tinycolor2');
+const { fstat } = require('fs');
 
 /**
  * @typedef {Object} TokenColor - Textmate token color.
@@ -23,9 +24,9 @@ const tinycolor = require('tinycolor2');
  */
 
 const withAlphaType = new Type('!alpha', {
-    kind: 'sequence',
-    construct: ([hexRGB, alpha]) => hexRGB + alpha,
-    represent: ([hexRGB, alpha]) => hexRGB + alpha,
+	kind: 'sequence',
+	construct: ([hexRGB, alpha]) => hexRGB + alpha,
+	represent: ([hexRGB, alpha]) => hexRGB + alpha,
 });
 
 const schema = Schema.create([withAlphaType]);
@@ -35,39 +36,64 @@ const schema = Schema.create([withAlphaType]);
  * @type {ThemeTransform}
  */
 const transformSoft = (yamlContent, yamlObj) => {
-    const brightColors = [
-        ...yamlObj.dracula.ansi,
-        ...yamlObj.dracula.brightOther,
-    ];
-    return load(
-        yamlContent.replace(/#[0-9A-F]{6}/g, (color) => {
-            if (brightColors.includes(color)) {
-                return tinycolor(color).desaturate(20).toHexString();
-            }
-            return color;
-        }),
-        { schema }
-    );
+	const brightColors = [
+		...yamlObj.dracula.ansi,
+		...yamlObj.dracula.brightOther,
+	];
+	return load(
+		yamlContent.replace(/#[0-9A-F]{6}/g, color => {
+			if (brightColors.includes(color)) {
+				return tinycolor(color)
+					.desaturate(20)
+					.toHexString();
+			}
+			return color;
+		}),
+		{ schema }
+	);
+};
+
+const handleFiles = async (srcDir, files) => {
+	console.log('handleFiles fired');
+	const moddedFiles = [];
+
+	for (let i = 0; i < files.length; i++) {
+		const filePath = `${srcDir}/${files[i]}`;
+		const yamlFile = await fs.readFile(filePath, 'utf-8');
+
+		/** @type {Theme} */
+		const base = load(yamlFile, { schema });
+
+		// Remove nulls and other falsey values from colors
+		for (const key of Object.keys(base.colors)) {
+			if (!base.colors[key]) {
+				delete base.colors[key];
+			}
+		}
+
+		moddedFiles.push({
+			base,
+			soft: transformSoft(yamlFile, base),
+			themeName: files[i],
+		});
+
+		console.log('handleFiles--moddedFiles: ', moddedFiles);
+		return moddedFiles;
+	}
 };
 
 module.exports = async () => {
-    const yamlFile = await readFile(
-        join(__dirname, '..', 'src', 'inksea.yml'),
-        'utf-8'
-    );
+	const srcFiles = join(__dirname, '..', 'src');
 
-    /** @type {Theme} */
-    const base = load(yamlFile, { schema });
+	const themeFiles = await fs.readdir(srcFiles, async (err, files) => {
+		if (err) {
+			console.log('Unable to scan directory: ' + error);
+		}
 
-    // Remove nulls and other falsey values from colors
-    for (const key of Object.keys(base.colors)) {
-        if (!base.colors[key]) {
-            delete base.colors[key];
-        }
-    }
+		const moddedFiles = await handleFiles(srcFiles, files);
 
-    return {
-        base,
-        soft: transformSoft(yamlFile, base),
-    };
+		return moddedFiles;
+	});
+
+	return themeFiles;
 };

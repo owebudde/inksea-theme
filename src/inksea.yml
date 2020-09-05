@@ -1,7 +1,7 @@
-name: Dracula
-author: Zeno Rocha
+name: inksea Dracula
+author: inksea
 maintainers:
-  - Derek P Sifford <dereksifford@gmail.com>
+  - inksea
 semanticClass: theme.dracula
 semanticHighlighting: true
 dracula:

@@ -2,6 +2,8 @@ printWidth = 80
 singleQuote = true
 tabWidth = 4
 trailingComma = 'all'
+semi = true
+useTabs = true
 
 [[overrides]]
   files = '*.js'
