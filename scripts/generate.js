@@ -1,4 +1,5 @@
-const { readFile } = require('fs').promises;
+const fs = require('fs');
+const { readFile } = fs.promises;
 const { join } = require('path');
 const { Type, Schema, load } = require('js-yaml');
 const tinycolor = require('tinycolor2');
@@ -52,24 +53,65 @@ const transformSoft = (yamlContent, yamlObj) => {
 	);
 };
 
+// TODO:
+// 1. Read all files.
+// 2. Create soft version of those files.
+// 3. Build all of those files.
+
+// TODO: This needs to return all of the built data.
 module.exports = async () => {
-	const yamlFile = await readFile(
-		join(__dirname, '..', 'src', 'inksea.yml'),
-		'utf-8'
-	);
+	// Read all files.
+	const srcFileDir = join(__dirname, '..', 'src');
+	console.log('srcFileDir:: ', srcFileDir);
 
-	/** @type {Theme} */
-	const base = load(yamlFile, { schema });
+	const srcFiles = fs.readdirSync(srcFileDir);
+	console.log('srcFiles:: ', srcFiles);
 
-	// Remove nulls and other falsey values from colors
-	for (const key of Object.keys(base.colors)) {
-		if (!base.colors[key]) {
-			delete base.colors[key];
+	const themeSchemas = [];
+
+	for (let i = 0; i < srcFiles.length; i++) {
+		const yamlFile = await readFile(
+			join(__dirname, '..', 'src', srcFiles[i]),
+			'utf-8'
+		);
+
+		/** @type {Theme} */
+		const base = load(yamlFile, { schema });
+
+		// Remove nulls and other falsey values from colors
+		for (const key of Object.keys(base.colors)) {
+			if (!base.colors[key]) {
+				delete base.colors[key];
+			}
 		}
+
+		themeSchemas.push({
+			base,
+			soft: transformSoft(yamlFile, base),
+		});
 	}
 
-	return {
-		base,
-		soft: transformSoft(yamlFile, base),
-	};
+	return themeSchemas;
 };
+
+// module.exports = async () => {
+// 	const yamlFile = await readFile(
+// 		join(__dirname, '..', 'src', 'inksea.yml'),
+// 		'utf-8'
+// 	);
+
+// 	/** @type {Theme} */
+// 	const base = load(yamlFile, { schema });
+
+// 	// Remove nulls and other falsey values from colors
+// 	for (const key of Object.keys(base.colors)) {
+// 		if (!base.colors[key]) {
+// 			delete base.colors[key];
+// 		}
+// 	}
+
+// 	return {
+// 		base,
+// 		soft: transformSoft(yamlFile, base),
+// 	};
+// };

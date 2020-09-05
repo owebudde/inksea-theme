@@ -9,19 +9,35 @@ if (!fs.existsSync(THEME_DIR)) {
 }
 
 module.exports = async () => {
-	const { base, soft } = await generate();
-
-	return Promise.all([
-		fs.promises.writeFile(
-			path.join(THEME_DIR, 'dracula.json'),
-			JSON.stringify(base, null, 4)
-		),
-		fs.promises.writeFile(
-			path.join(THEME_DIR, 'dracula-soft.json'),
-			JSON.stringify(soft, null, 4)
-		),
-	]);
+	// const { base, soft } = await generate();
+	const test = await generate();
+	console.log('build.js--generate:: ', test);
+	// return Promise.all([
+	// 	fs.promises.writeFile(
+	// 		path.join(THEME_DIR, 'dracula.json'),
+	// 		JSON.stringify(base, null, 4)
+	// 	),
+	// 	fs.promises.writeFile(
+	// 		path.join(THEME_DIR, 'dracula-soft.json'),
+	// 		JSON.stringify(soft, null, 4)
+	// 	),
+	// ]);
 };
+
+// module.exports = async () => {
+// 	const { base, soft } = await generate();
+
+// 	return Promise.all([
+// 		fs.promises.writeFile(
+// 			path.join(THEME_DIR, 'dracula.json'),
+// 			JSON.stringify(base, null, 4)
+// 		),
+// 		fs.promises.writeFile(
+// 			path.join(THEME_DIR, 'dracula-soft.json'),
+// 			JSON.stringify(soft, null, 4)
+// 		),
+// 	]);
+// };
 
 if (require.main === module) {
 	module.exports();
