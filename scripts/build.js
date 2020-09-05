@@ -2,47 +2,36 @@ const fs = require('fs');
 const path = require('path');
 const generate = require('./generate');
 
-const THEME_DIR = path.join(__dirname, '..', 'theme');
+const THEME_DIR = path.join(__dirname, '..', 'themes');
 
 if (!fs.existsSync(THEME_DIR)) {
 	fs.mkdirSync(THEME_DIR);
 }
 
 module.exports = async () => {
-	// const { base, soft } = await generate();
 	const themeSchemas = await generate();
-	// console.log('build.js--themeSchemas:: ', themeSchemas);
+	const schemaPromiseAllArr = [];
 
 	themeSchemas.forEach(schema => {
-		console.log('schema::', schema);
+		if (schema.hasOwnProperty('soft')) {
+			schemaPromiseAllArr.push(
+				fs.promises.writeFile(
+					path.join(THEME_DIR, `${schema.fileName}-soft.json`),
+					JSON.stringify(schema.soft, null, 4)
+				)
+			);
+		} else {
+			schemaPromiseAllArr.push(
+				fs.promises.writeFile(
+					path.join(THEME_DIR, `${schema.fileName}.json`),
+					JSON.stringify(schema.base, null, 4)
+				)
+			);
+		}
 	});
 
-	// return Promise.all([
-	// 	fs.promises.writeFile(
-	// 		path.join(THEME_DIR, 'dracula.json'),
-	// 		JSON.stringify(base, null, 4)
-	// 	),
-	// 	fs.promises.writeFile(
-	// 		path.join(THEME_DIR, 'dracula-soft.json'),
-	// 		JSON.stringify(soft, null, 4)
-	// 	),
-	// ]);
+	return Promise.all(schemaPromiseAllArr);
 };
-
-// module.exports = async () => {
-// 	const { base, soft } = await generate();
-
-// 	return Promise.all([
-// 		fs.promises.writeFile(
-// 			path.join(THEME_DIR, 'dracula.json'),
-// 			JSON.stringify(base, null, 4)
-// 		),
-// 		fs.promises.writeFile(
-// 			path.join(THEME_DIR, 'dracula-soft.json'),
-// 			JSON.stringify(soft, null, 4)
-// 		),
-// 	]);
-// };
 
 if (require.main === module) {
 	module.exports();

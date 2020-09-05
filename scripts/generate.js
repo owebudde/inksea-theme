@@ -53,12 +53,6 @@ const transformSoft = (yamlContent, yamlObj) => {
 	);
 };
 
-// TODO:
-// 1. Read all files.
-// 2. Create soft version of those files.
-// 3. Build all of those files.
-
-// TODO: This needs to return all of the built data.
 module.exports = async () => {
 	// Read all files.
 	const srcFileDir = join(__dirname, '..', 'src');
@@ -88,30 +82,9 @@ module.exports = async () => {
 		themeSchemas.push({
 			base,
 			soft: transformSoft(yamlFile, base),
+			fileName: srcFiles[i].replace('.yml', ''),
 		});
 	}
 
 	return themeSchemas;
 };
-
-// module.exports = async () => {
-// 	const yamlFile = await readFile(
-// 		join(__dirname, '..', 'src', 'inksea.yml'),
-// 		'utf-8'
-// 	);
-
-// 	/** @type {Theme} */
-// 	const base = load(yamlFile, { schema });
-
-// 	// Remove nulls and other falsey values from colors
-// 	for (const key of Object.keys(base.colors)) {
-// 		if (!base.colors[key]) {
-// 			delete base.colors[key];
-// 		}
-// 	}
-
-// 	return {
-// 		base,
-// 		soft: transformSoft(yamlFile, base),
-// 	};
-// };
