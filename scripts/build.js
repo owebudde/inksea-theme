@@ -20,14 +20,14 @@ module.exports = async () => {
 					JSON.stringify(schema.soft, null, 4)
 				)
 			);
-		} else {
-			schemaPromiseAllArr.push(
-				fs.promises.writeFile(
-					path.join(THEME_DIR, `${schema.fileName}.json`),
-					JSON.stringify(schema.base, null, 4)
-				)
-			);
 		}
+
+		schemaPromiseAllArr.push(
+			fs.promises.writeFile(
+				path.join(THEME_DIR, `${schema.fileName}.json`),
+				JSON.stringify(schema.base, null, 4)
+			)
+		);
 	});
 
 	return Promise.all(schemaPromiseAllArr);
