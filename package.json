@@ -78,6 +78,16 @@
 				"label": "_inkSea Theme Dank - Soft",
 				"uiTheme": "vs-dark",
 				"path": "./themes/inksea-dank-soft.json"
+			},
+			{
+				"label": "_inkSea Theme Dracula",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inksea-dracula.json"
+			},
+			{
+				"label": "_inkSea Theme Dracula - Soft",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inksea-dracula-soft.json"
 			}
 		]
 	},

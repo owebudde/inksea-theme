@@ -1,32 +1,33 @@
-# _inkSea Theme for VSCode
+# \_inkSea Theme for VSCode
 
 A minimal, pastel dark syntax theme.
 Easy on the eyes, soft on the brain. Light alacritous pastel colors on a solid deep background.
 
-![Promo for _inkSea Theme](https://res.cloudinary.com/inksea/image/upload/v1543604481/inkSea/inksea-theme-promo.png "Promo graphic")
+![Promo for _inkSea Theme](https://res.cloudinary.com/inksea/image/upload/v1543604481/inkSea/inksea-theme-promo.png 'Promo graphic')
 
-![Screenshot of _inkSea Theme - Tight](https://res.cloudinary.com/inksea/image/upload/c_scale,w_2048/v1543604482/inkSea/inksea-preview-2.png "Screenshot - tight with react.js")
+## Screenshots
 
-![Screenshot of _inkSea Theme](https://res.cloudinary.com/inksea/image/upload/c_scale,w_2048/v1543604482/inkSea/inksea-preview-1.png "Screenshot - large, full screen")
+![Screenshot of _inkSea Theme](https://res.cloudinary.com/inksea/image/upload/v1599404351/inkSea/screenshot-inksea.png 'Screenshot - tight with react.js')
 
+![Screenshot of _inkSea Dark Theme](https://res.cloudinary.com/inksea/image/upload/v1599404351/inkSea/screenshot-inksea-dark.png 'Screenshot - tight with react.js')
+
+![Screenshot of _inkSea Midnight Theme](https://res.cloudinary.com/inksea/image/upload/v1599404351/inkSea/screenshot-inksea-midnight.png 'Screenshot - tight with react.js')
+
+![Screenshot of _inkSea Dracula Theme](https://res.cloudinary.com/inksea/image/upload/v1599404351/inkSea/screenshot-inksea-dracula.png 'Screenshot - tight with react.js')
+
+![Screenshot of _inkSea Dank Theme](https://res.cloudinary.com/inksea/image/upload/v1599404351/inkSea/screenshot-inksea-dank.png 'Screenshot - tight with react.js')
+
+![Screenshot of _inkSea Hacker Theme](https://res.cloudinary.com/inksea/image/upload/v1599404351/inkSea/screenshot-inksea-hacker.png 'Screenshot - tight with react.js')
 
 ## Install
+
 Through VSCode marketplace.
 
-## New
-1. Dark version added *subject* to change
-
-## Activate
-Preferences > Color Theme
-Select Inksea
-
-## 🌊 About Inksea
-A tender loving ocean of words with a nurturing swell.
-
 ## My Settings
+
 ```javascript
 {
-    "editor.fontFamily": "Dank Mono",
+    "editor.fontFamily": "Input Mono",
     "editor.fontLigatures": true,
     "indentRainbow.colors": [
         "rgba(255, 255, 255, 0)",
