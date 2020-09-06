@@ -4,7 +4,7 @@ maintainers:
   - inksea
 semanticClass: theme.inksea
 semanticHighlighting: true
-dracula:
+inksea:
   base:
     - &BG '#212529'
     - &FG '#c4cad1'

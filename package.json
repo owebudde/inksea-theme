@@ -1,55 +1,55 @@
 {
-    "name": "inksea-theme",
-    "displayName": "inkSea Theme",
-    "description": "Easy on the Eyes, Soft on the Brain, Dark Pastel Theme",
-    "version": "2.1.2",
-    "publisher": "inksea",
-    "scripts": {
-        "build": "node ./scripts/build.js",
-        "lint": "node ./scripts/lint.js",
-        "package": "vsce package -o ./bin/dracula.vsix",
-        "vscode:prepublish": "npm run build",
-        "vsce-publish": "vsce publish"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/inksea/inksea-theme"
-    },
-    "engines": {
-        "vscode": "^1.27.0-insider"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "images/inksea-icon.png",
-    "homepage": "https://github.com/inksea/inksea-theme",
-    "gallerBanner": {
-        "color": "#2a2c2d",
-        "theme": "dark"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "_inkSea Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/primary-color-theme.json"
-            },
-            {
-                "label": "_inkSea Theme - Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark-color-theme.json"
-            },
-            {
-                "label": "_inkSea Theme - Midnight",
-                "uiTheme": "vs-dark",
-                "path": "./themes/midnight-color-theme.json"
-            }
-        ]
-    },
-    "dependencies": {
-        "js-yaml": "^3.13.1",
-        "prettier": "^1.19.1",
-        "tinycolor2": "^1.4.1",
-        "vsce": "^1.79.5"
-    }
+	"name": "inksea-theme",
+	"displayName": "inkSea Theme",
+	"description": "Easy on the Eyes, Soft on the Brain, Dark Pastel Theme",
+	"version": "2.1.2",
+	"publisher": "inksea",
+	"scripts": {
+		"build": "node ./scripts/build.js",
+		"lint": "node ./scripts/lint.js",
+		"package": "vsce package -o ./bin/inksea.vsix",
+		"vscode:prepublish": "npm run build",
+		"vsce-publish": "vsce publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/inksea/inksea-theme"
+	},
+	"engines": {
+		"vscode": "^1.27.0-insider"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "images/inksea-icon.png",
+	"homepage": "https://github.com/inksea/inksea-theme",
+	"gallerBanner": {
+		"color": "#2a2c2d",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "_inkSea Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/primary-color-theme.json"
+			},
+			{
+				"label": "_inkSea Theme - Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-color-theme.json"
+			},
+			{
+				"label": "_inkSea Theme - Midnight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/midnight-color-theme.json"
+			}
+		]
+	},
+	"dependencies": {
+		"js-yaml": "^3.13.1",
+		"prettier": "^1.19.1",
+		"tinycolor2": "^1.4.1",
+		"vsce": "^1.79.5"
+	}
 }
