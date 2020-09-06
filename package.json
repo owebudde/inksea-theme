@@ -38,6 +38,46 @@
 				"label": "_inkSea Theme - Soft",
 				"uiTheme": "vs-dark",
 				"path": "./themes/inksea-soft.json"
+			},
+			{
+				"label": "_inkSea Theme Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inksea-dark.json"
+			},
+			{
+				"label": "_inkSea Theme Dark - Soft",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inksea-dark-soft.json"
+			},
+			{
+				"label": "_inkSea Theme Midnight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inksea-midnight.json"
+			},
+			{
+				"label": "_inkSea Theme Midnight - Soft",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inksea-midnight-soft.json"
+			},
+			{
+				"label": "_inkSea Theme Hacker",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inksea-hacker.json"
+			},
+			{
+				"label": "_inkSea Theme Hacker - Soft",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inksea-hacker-soft.json"
+			},
+			{
+				"label": "_inkSea Theme Dank",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inksea-dank.json"
+			},
+			{
+				"label": "_inkSea Theme Dank - Soft",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inksea-dank-soft.json"
 			}
 		]
 	},

@@ -6,7 +6,7 @@ semanticClass: theme.dark.inksea
 semanticHighlighting: true
 inksea:
   base:
-    - &BG '#212529'
+    - &BG '#1a1d21'
     - &FG '#c4cad1'
     - &SELECTION '#FFCC9540'
     - &COMMENT '#676B79'
@@ -45,9 +45,9 @@ inksea:
     - &TAB_DROP_BG '#1a1d21'
     # UI Variants
     - &BGLighter '#31353a'
-    - &BGLight '#242526' # HSV (230   , 25.71, 27.45)
-    - &BGDark '#1d2125' # HSV (234.55, 25   , 17.25)
-    - &BGDarker '#1a1d21' # HSV (234.55, 25   , 13   )
+    - &BGLight '#1a1d21'
+    - &BGDark '#131518'
+    - &BGDarker '#0a0b0f'
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:

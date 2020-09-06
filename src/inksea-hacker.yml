@@ -6,47 +6,47 @@ semanticClass: theme.hacker.inksea
 semanticHighlighting: true
 inksea:
   base:
-    - &BG '#212529'
-    - &FG '#c4cad1'
+    - &BG '#010101'
+    - &FG '#bbbbbb'
     - &SELECTION '#FFCC9540'
     - &COMMENT '#676B79'
-    - &CYAN '#6FC1FF'
-    - &GREEN '#63e6be'
+    - &CYAN '#87a1c5'
+    - &GREEN '#a7ecb7'
     - &ORANGE '#F6B352'
     - &PINK '#FF9AC1'
-    - &PURPLE '#B084EB'
-    - &RED '#ef5285'
+    - &PURPLE '#7574a5'
+    - &RED '#c05776'
     - &YELLOW '#FFCC95'
   ansi:
     - &COLOR0 '#212529'
-    - &COLOR1 '#ef5285'
-    - &COLOR2 '#63e6be'
+    - &COLOR1 '#c05776'
+    - &COLOR2 '#81b38c'
     - &COLOR3 '#F6B352'
-    - &COLOR4 '#B084EB'
-    - &COLOR5 '#FF9AC1'
-    - &COLOR6 '#45A9F9'
+    - &COLOR4 '#7574a5'
+    - &COLOR5 '#c05776'
+    - &COLOR6 '#87a1c5'
     - &COLOR7 '#c4cad1'
     - &COLOR8 '#6272A4'
-    - &COLOR9 '#ef5285'
-    - &COLOR10 '#63e6be'
+    - &COLOR9 '#c05776'
+    - &COLOR10 '#a3be8c'
     - &COLOR11 '#FFCC95'
-    - &COLOR12 '#D6ACFF'
-    - &COLOR13 '#FF92DF'
-    - &COLOR14 '#6FC1FF'
+    - &COLOR12 '#7574a5'
+    - &COLOR13 '#c05776'
+    - &COLOR14 '#8db9e2'
     - &COLOR15 '#c4cad1'
   brightOther:
     # Temporary (awaiting fix)
     - &TEMP_QUOTES '#FFCC95'
     - &TEMP_PROPERTY_QUOTES '#6FC1FF'
   other:
-    - &LineHighlight '#31353a'
+    - &LineHighlight '#33333352'
     - &NonText '#FFFFFF1A'
     - &WHITE '#c4cad1'
     - &TAB_DROP_BG '#1a1d21'
     # UI Variants
     - &BGLighter '#31353a'
     - &BGLight '#242526' # HSV (230   , 25.71, 27.45)
-    - &BGDark '#1d2125' # HSV (234.55, 25   , 17.25)
+    - &BGDark '#010101' # HSV (234.55, 25   , 17.25)
     - &BGDarker '#1a1d21' # HSV (234.55, 25   , 13   )
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
