@@ -1,8 +1,8 @@
-name: inksea
+name: inksea Dank
 author: inksea
 maintainers:
   - inksea
-semanticClass: theme.inksea
+semanticClass: theme.dank.inksea
 semanticHighlighting: true
 inksea:
   base:

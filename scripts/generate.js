@@ -56,10 +56,8 @@ const transformSoft = (yamlContent, yamlObj) => {
 module.exports = async () => {
 	// Read all files.
 	const srcFileDir = join(__dirname, '..', 'src');
-	console.log('srcFileDir:: ', srcFileDir);
 
 	const srcFiles = fs.readdirSync(srcFileDir);
-	console.log('srcFiles:: ', srcFiles);
 
 	const themeSchemas = [];
 
