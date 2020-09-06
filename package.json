@@ -2,8 +2,15 @@
 	"name": "inksea-theme",
 	"displayName": "inkSea Theme",
 	"description": "Easy on the Eyes, Soft on the Brain, Dark Pastel Theme",
-	"version": "2.2.0",
+	"version": "2.1.2",
 	"publisher": "inksea",
+	"scripts": {
+		"build": "node ./scripts/build.js",
+		"lint": "node ./scripts/lint.js",
+		"package": "vsce package -o ./bin/inksea.vsix",
+		"vscode:prepublish": "npm run build",
+		"vsce-publish": "vsce publish"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/inksea/inksea-theme"
@@ -36,15 +43,13 @@
 				"label": "_inkSea Theme - Midnight",
 				"uiTheme": "vs-dark",
 				"path": "./themes/midnight-color-theme.json"
-			},
-			{
-				"label": "_inkSea Theme - Hacker Midnight",
-				"uiTheme": "vs-dark",
-				"path": "./themes/midnight-hacker-theme.json"
 			}
 		]
 	},
 	"dependencies": {
-		"vsce": "^1.69.0"
+		"js-yaml": "^3.13.1",
+		"prettier": "^1.19.1",
+		"tinycolor2": "^1.4.1",
+		"vsce": "^1.79.5"
 	}
 }

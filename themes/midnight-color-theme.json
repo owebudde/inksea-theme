@@ -87,9 +87,7 @@
 			}
 		},
 		{
-			"scope": [
-				"variable.other.object.property"
-			],
+			"scope": ["variable.other.object.property"],
 			"settings": {
 				"foreground": "#dee2e6",
 				"fontStyle": "italic"
@@ -128,7 +126,7 @@
 		{
 			"scope": "support.class",
 			"settings": {
-				"foreground": "#FFCC95",
+				"foreground": "#FFCC95"
 			}
 		},
 		{
@@ -173,7 +171,6 @@
 			"settings": {
 				"foreground": "#c792ea",
 				"fontStyle": "italic"
-
 			}
 		},
 		{
@@ -435,7 +432,8 @@
 				"fontStyle": "italic"
 			}
 		},
-		{ // expressions in jsx
+		{
+			// expressions in jsx
 			"scope": "meta.embedded.expression.js",
 			"settings": {
 				"foreground": "#FF9AC1"
@@ -450,10 +448,7 @@
 			}
 		},
 		{
-			"scope": [
-				"entity.name.tag.doctype",
-				"meta.tag.sgml.doctype"
-			],
+			"scope": ["entity.name.tag.doctype", "meta.tag.sgml.doctype"],
 			"settings": {
 				"foreground": "#c792ea",
 				"fontStyle": "italic"

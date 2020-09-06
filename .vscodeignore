@@ -1,3 +1,17 @@
+.github/**
+.vscode/**
+bin/**
+node_modules/**
+scripts/**
+src/**
+tests/**
+.editorconfig
+.prettierrc.toml
+generate.js
+jsconfig.json
+known_issues.md
+
+# extras
 .vscode/**
 .vscode-test/**
 .gitignore
