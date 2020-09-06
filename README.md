@@ -1,7 +1,6 @@
 # \_inkSea Theme for VSCode
 
-A minimal, pastel dark syntax theme.
-Easy on the eyes, soft on the brain. Light alacritous pastel colors on a solid deep background.
+A theme collection with my own theme and some variations on some popular themes, such as Dracula and Hacker. Simple and functional.
 
 ![Promo for _inkSea Theme](https://res.cloudinary.com/inksea/image/upload/v1543604481/inkSea/inksea-theme-promo.png 'Promo graphic')
 
@@ -25,10 +24,11 @@ Through VSCode marketplace.
 
 ## My Settings
 
+Font and indent rainbow colors.
+
 ```javascript
 {
     "editor.fontFamily": "Input Mono",
-    "editor.fontLigatures": true,
     "indentRainbow.colors": [
         "rgba(255, 255, 255, 0)",
         "rgba(255, 255, 255, 0.03)",
