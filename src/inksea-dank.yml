@@ -1,7 +1,7 @@
 name: inksea Dank
-author: inksea
+author: Eliot Buddé
 maintainers:
-  - inksea
+  - Eliot Buddé
 semanticClass: theme.dank.inksea
 semanticHighlighting: true
 softVersion: false

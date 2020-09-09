@@ -1,7 +1,7 @@
 name: inksea Midnight
-author: inksea
+author: Eliot Buddé
 maintainers:
-  - inksea
+  - Eliot Buddé
 semanticClass: theme.midnight.inksea
 semanticHighlighting: true
 softVersion: false

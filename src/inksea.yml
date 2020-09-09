@@ -1,7 +1,7 @@
 name: inksea
-author: inksea
+author: Eliot Buddé
 maintainers:
-  - inksea
+  - Eliot Buddé
 semanticClass: theme.inksea
 semanticHighlighting: true
 softVersion: false

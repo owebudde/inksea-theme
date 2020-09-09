@@ -1,7 +1,7 @@
 name: inksea Hacker
-author: inksea
+author: Eliot Buddé
 maintainers:
-  - inksea
+  - Eliot Buddé
 semanticClass: theme.hacker.inksea
 semanticHighlighting: true
 softVersion: true
@@ -47,7 +47,7 @@ inksea:
     # UI Variants
     - &BGLighter '#31353a'
     - &BGLight '#242526' # HSV (230   , 25.71, 27.45)
-    - &BGDark '#010101' # HSV (234.55, 25   , 17.25)
+    - &BGDark '#212529' # HSV (234.55, 25   , 17.25)
     - &BGDarker '#1a1d21' # HSV (234.55, 25   , 13   )
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
