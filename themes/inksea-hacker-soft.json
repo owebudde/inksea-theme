@@ -6,6 +6,7 @@
     ],
     "semanticClass": "theme.hacker.inksea",
     "semanticHighlighting": true,
+    "softVersion": true,
     "inksea": {
         "base": [
             "#010101",

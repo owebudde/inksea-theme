@@ -6,6 +6,7 @@
     ],
     "semanticClass": "theme.dank.inksea",
     "semanticHighlighting": true,
+    "softVersion": false,
     "inksea": {
         "base": [
             "#121216",

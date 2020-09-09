@@ -6,6 +6,7 @@
     ],
     "semanticClass": "theme.dark.inksea",
     "semanticHighlighting": true,
+    "softVersion": false,
     "inksea": {
         "base": [
             "#1a1d21",

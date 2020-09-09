@@ -4,6 +4,7 @@ maintainers:
   - Eliot Buddé
 semanticClass: theme.dracula.inksea
 semanticHighlighting: true
+softVersion: true
 inksea:
   base:
     - &BG '#282A36'

@@ -77,11 +77,16 @@ module.exports = async () => {
 			}
 		}
 
-		themeSchemas.push({
+		const themeSchema = {
 			base,
-			soft: transformSoft(yamlFile, base),
 			fileName: srcFiles[i].replace('.yml', ''),
-		});
+		};
+
+		if (base.softVersion) {
+			themeSchema.soft = transformSoft(yamlFile, base);
+		}
+
+		themeSchemas.push(themeSchema);
 	}
 
 	return themeSchemas;

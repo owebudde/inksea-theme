@@ -4,6 +4,7 @@ maintainers:
   - inksea
 semanticClass: theme.dark.inksea
 semanticHighlighting: true
+softVersion: false
 inksea:
   base:
     - &BG '#1a1d21'

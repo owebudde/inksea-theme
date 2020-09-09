@@ -6,6 +6,7 @@
     ],
     "semanticClass": "theme.dracula.inksea",
     "semanticHighlighting": true,
+    "softVersion": true,
     "inksea": {
         "base": [
             "#282A36",

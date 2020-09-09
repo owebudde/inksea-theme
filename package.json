@@ -2,7 +2,7 @@
 	"name": "inksea-theme",
 	"displayName": "inkSea Theme",
 	"description": "Easy on the Eyes, Soft on the Brain, Dark Pastel Theme",
-	"version": "2.1.2",
+	"version": "3.0.0",
 	"publisher": "inksea",
 	"scripts": {
 		"build": "node ./scripts/build.js",
