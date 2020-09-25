@@ -4,7 +4,7 @@
 	"name": "inkSea Theme | Legacy",
 	"maintainers": ["Eliot Buddé"],
 	"colorSpaceName": "sRGB",
-	"semanticClass": "theme.dark.inksea_theme_dark",
+	"semanticClass": "theme.dark.inksea_theme_midnight",
 	"tokenColors": [
 		{
 			"scope": "comment",
@@ -101,15 +101,9 @@
 			}
 		},
 		{
-			"scope": "invalid.illegal",
+			"scope": "token.error-token",
 			"settings": {
-				"border-bottom": "1px dashed rgba(255, 44, 109, 0.5)"
-			}
-		},
-		{
-			"scope": "invalid.deprecated",
-			"settings": {
-				"background-foreground": "rgba(255, 44, 109, 0.62)"
+				"foreground": "#ef5285"
 			}
 		},
 		{
@@ -565,7 +559,7 @@
 	"colors": {
 		"foreground": "#ced4da",
 		"errorForeground": "#ef5285",
-		"activityBar.background": "#1a1d21",
+		"activityBar.background": "#010101",
 		"activityBar.foreground": "#dee2e6",
 		"activityBar.border": "#222223",
 		"activityBarBadge.background": "#63e6be",
@@ -582,7 +576,7 @@
 		"merge.currentContentBackground": "#B084EB40",
 		"merge.incomingHeaderBackground": "#45A9F990",
 		"merge.incomingContentBackground": "#FFCC9540",
-		"editor.background": "#212529",
+		"editor.background": "#010101",
 		"editor.foreground": "#c4cad1",
 		"editorCursor.foreground": "#ef5285",
 		"editorRuler.foreground": "#B084EB60",
@@ -597,7 +591,7 @@
 		"editor.findMatchBackground": "#B084EB90",
 		"editor.findMatchHighlightBackground": "#FFCC9540",
 		"editor.lineHighlightBackground": "#31353a",
-		"editorWidget.background": "#1a1d21",
+		"editorWidget.background": "#010101",
 		"editorWidget.border": "#31353a",
 		"editorSuggestWidget.selectedBackground": "#19f9d899",
 		"editorHoverWidget.background": "#31353a",
@@ -616,38 +610,42 @@
 		"editorGutter.modifiedBackground": "#FFCC95",
 		"editorGutter.addedBackground": "#63e6be",
 		"editorGutter.deletedBackground": "#ef5285",
-		"list.hoverBackground": "#292A2B",
+		"list.hoverBackground": "#1a1d21",
 		"list.hoverForeground": "#CDCDCD",
-		"list.focusBackground": "#292A2B",
+		"list.focusBackground": "#1a1d21",
 		"list.focusForeground": "#63e6be",
 		"list.activeSelectionBackground": "#292A2B",
 		"list.activeSelectionForeground": "#63e6be",
 		"list.inactiveSelectionBackground": "#292A2B",
 		"list.inactiveSelectionForeground": "#63e6be",
 		"list.highlightForeground": "#6FC1FF",
-		"sideBar.background": "#1a1d21",
-		"sideBar.foreground": "#BBBBBB",
+		"sideBar.background": "#010101",
+		"sideBar.foreground": "#676B79",
 		"sideBar.border": "#31353a",
+		"sideBarSectionHeader.background": "#0a0b0f",
+		"sideBarSectionHeader.foreground": "#a8a8b1",
 		"scrollbar.shadow": "#222223",
 		"scrollbarSlider.background": "#373B4199",
 		"scrollbarSlider.activeBackground": "#757575",
 		"scrollbarSlider.hoverBackground": "#757575",
-		"statusBar.background": "#1a1d21",
+		"statusBar.background": "#010101",
 		"statusBar.foreground": "#dee2e6",
-		"statusBar.noFolderBackground": "#242526",
+		"statusBar.noFolderBackground": "#010101",
 		"statusBar.noFolderForeground": "#dee2e6",
 		"statusBar.debuggingBackground": "#B084EB",
 		"statusBar.debuggingForeground": "#dee2e6",
-		"titleBar.activeBackground": "#1a1d21",
+		"titleBar.activeBackground": "#010101",
 		"titleBar.activeForeground": "#dee2e6",
 		"titleBar.inactiveBackground": "#1a1d21",
 		"titleBar.inactiveForeground": "#dee2e6",
-		"tab.activeBackground": "#1a1d21",
+		"editorGroupHeader.tabsBackground": "#010101",
+		"editorGroupHeader.tabsBorder": "#010101",
+		"tab.activeBackground": "#010101",
 		"tab.activeForeground": "#63e6be",
 		"tab.activeBorder": "#63e6be",
-		"tab.inactiveBackground": "#242526",
-		"tab.inactiveForeground": "#dee2e6",
-		//   "terminal.background": "#1a1d21",
+		"tab.inactiveBackground": "#010101",
+		"tab.inactiveForeground": "#969ba0",
+		"terminal.background": "#010101",
 		"terminalCursor.background": "#dee2e6",
 		"terminalCursor.foreground": "#ef5285",
 		"terminal.ansiBlue": "#45A9F9",
@@ -665,6 +663,6 @@
 		"terminal.ansiRed": "#ef5285",
 		"terminal.ansiWhite": "#CDCDCD",
 		"terminal.ansiYellow": "#FFCC95",
-		"panel.background": "#1d2125"
+		"panel.background": "#010101"
 	}
 }
