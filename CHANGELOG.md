@@ -4,10 +4,11 @@ All notable changes to the "inksea-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## 3.1.0 September 24 2020
+## 3.1.1 September 24 2020
 
 -   Brought back old style versions (until new build method color mapping is fixed)
     -   Old themes can be found as "Legacy" under the vscode command palette
+-   Fix file names
 
 ## 3.0.1 September 8 2020
 
