@@ -2,7 +2,7 @@
 	"name": "inksea-theme",
 	"displayName": "inkSea Theme",
 	"description": "Easy on the Eyes, Soft on the Brain, Dark Pastel Theme",
-	"version": "3.0.1",
+	"version": "3.1.0",
 	"publisher": "inksea",
 	"maintainers": [
 		"Eliot Buddé <oebudde13@gmail.com>"
@@ -33,44 +33,59 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "_inkSea Theme",
+				"label": "inkSea Theme",
 				"uiTheme": "vs-dark",
 				"path": "./themes/inksea.json"
 			},
 			{
-				"label": "_inkSea Theme Dark",
+				"label": "inkSea Theme Dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/inksea-dark.json"
 			},
 			{
-				"label": "_inkSea Theme Midnight",
+				"label": "inkSea Theme Midnight",
 				"uiTheme": "vs-dark",
 				"path": "./themes/inksea-midnight.json"
 			},
 			{
-				"label": "_inkSea Theme Hacker",
+				"label": "inkSea Theme Hacker",
 				"uiTheme": "vs-dark",
 				"path": "./themes/inksea-hacker.json"
 			},
 			{
-				"label": "_inkSea Theme Hacker - Soft",
+				"label": "inkSea Theme Hacker - Soft",
 				"uiTheme": "vs-dark",
 				"path": "./themes/inksea-hacker-soft.json"
 			},
 			{
-				"label": "_inkSea Theme Dank",
+				"label": "inkSea Theme Dank",
 				"uiTheme": "vs-dark",
 				"path": "./themes/inksea-dank.json"
 			},
 			{
-				"label": "_inkSea Theme Dracula",
+				"label": "inkSea Theme Dracula",
 				"uiTheme": "vs-dark",
 				"path": "./themes/inksea-dracula.json"
 			},
 			{
-				"label": "_inkSea Theme Dracula - Soft",
+				"label": "inkSea Theme Dracula - Soft",
 				"uiTheme": "vs-dark",
 				"path": "./themes/inksea-dracula-soft.json"
+			},
+			{
+				"label": "inkSea Theme | Legacy",
+				"uiTheme": "vs-dark",
+				"path": "./themes/legacy-dark-color-theme.json"
+			},
+			{
+				"label": "inkSea Theme | Legacy - Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/legacy-midnight-color-theme.json"
+			},
+			{
+				"label": "inkSea Theme | Legacy - Midnight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/legacy-primary-color-theme.json"
 			}
 		]
 	},
