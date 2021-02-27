@@ -73,6 +73,11 @@
 				"path": "./themes/inksea-dracula-soft.json"
 			},
 			{
+				"label": "inkSea Theme Trash Panda",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inksea-trash-panda.json"
+			},
+			{
 				"label": "inkSea Theme | Legacy",
 				"uiTheme": "vs-dark",
 				"path": "./themes/legacy-dark-color-theme.json"
