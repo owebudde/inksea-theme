@@ -4,10 +4,10 @@ maintainers:
   - Eliot Buddé
 semanticClass: theme.hacker.inksea
 semanticHighlighting: true
-softVersion: true
+softVersion: false
 inksea:
   base:
-    - &BG '#010101'
+    - &BG '#090d0c'
     - &FG '#bbbbbb'
     - &SELECTION '#FFCC9540'
     - &COMMENT '#676B79'
@@ -19,7 +19,7 @@ inksea:
     - &RED '#c05776'
     - &YELLOW '#FFCC95'
   ansi:
-    - &COLOR0 '#212529'
+    - &COLOR0 '#090d0c'
     - &COLOR1 '#c05776'
     - &COLOR2 '#81b38c'
     - &COLOR3 '#F6B352'
@@ -45,10 +45,10 @@ inksea:
     - &WHITE '#c4cad1'
     - &TAB_DROP_BG '#1a1d21'
     # UI Variants
-    - &BGLighter '#31353a'
-    - &BGLight '#242526' # HSV (230   , 25.71, 27.45)
-    - &BGDark '#212529' # HSV (234.55, 25   , 17.25)
-    - &BGDarker '#1a1d21' # HSV (234.55, 25   , 13   )
+    - &BGLighter '#121a18'
+    - &BGLight '#0e1413' # HSV (230   , 25.71, 27.45)
+    - &BGDark '#070a09' # HSV (234.55, 25   , 17.25)
+    - &BGDarker '#040505' # HSV (234.55, 25   , 13   )
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:
