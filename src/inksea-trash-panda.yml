@@ -11,6 +11,7 @@ inksea:
     - &FG '#c4cad1'
     - &SELECTION '#FFCC9540'
     - &COMMENT '#676B79'
+    - &BLUE '#20B1D2'
     - &CYAN '#7BE1E3'
     - &GREEN '#14B5A5'
     - &ORANGE '#E1AB89'
@@ -25,7 +26,7 @@ inksea:
     - &COLOR3 '#E1AB89'
     - &COLOR4 '#9586CF'
     - &COLOR5 '#DEA6B6'
-    - &COLOR6 '#45A9F9'
+    - &COLOR6 '#4A9BF2'
     - &COLOR7 '#c4cad1'
     - &COLOR8 '#6272A4'
     - &COLOR9 '#E68680'
@@ -609,7 +610,7 @@ tokenColors:
       - comment.block.documentation keyword
       - comment.block.documentation storage.type.class
     settings:
-      foreground: *PINK
+      foreground: *CYAN
 
   - name: JSDoc-style types
     scope:
@@ -640,7 +641,7 @@ tokenColors:
       - constant
       - variable.other.constant
     settings:
-      foreground: *ORANGE
+      foreground: *BLUE
 
   - name: Constant escape sequences
     scope:
@@ -670,7 +671,7 @@ tokenColors:
     scope:
       - entity.other.attribute-name
     settings:
-      foreground: *GREEN
+      foreground: *PURPLE
       fontStyle: italic
 
   # =============================================================================
@@ -883,7 +884,7 @@ tokenColors:
       - source.groovy storage.type.def
     settings:
       fontStyle: regular
-      foreground: *PINK
+      foreground: *PURPLE
 
   - name: Types
     scope:
@@ -1024,7 +1025,7 @@ tokenColors:
       - variable.other.constant.ts # Fixes incorrect highlighting of pseudo-constants in ts
       - variable.other.constant.tsx # Fixes incorrect highlighting of pseudo-constants in tsx
     settings:
-      foreground: *FG
+      foreground: *BLUE
 
   - name: Destructuring / aliasing reference name (LHS)
     scope:

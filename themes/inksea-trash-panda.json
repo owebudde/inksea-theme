@@ -13,6 +13,7 @@
             "#c4cad1",
             "#FFCC9540",
             "#676B79",
+            "#20B1D2",
             "#7BE1E3",
             "#14B5A5",
             "#E1AB89",
@@ -28,7 +29,7 @@
             "#E1AB89",
             "#9586CF",
             "#DEA6B6",
-            "#45A9F9",
+            "#4A9BF2",
             "#c4cad1",
             "#6272A4",
             "#E68680",
@@ -71,7 +72,7 @@
         "terminal.ansiYellow": "#E1AB89",
         "terminal.ansiBlue": "#9586CF",
         "terminal.ansiMagenta": "#DEA6B6",
-        "terminal.ansiCyan": "#45A9F9",
+        "terminal.ansiCyan": "#4A9BF2",
         "terminal.ansiWhite": "#c4cad1",
         "contrastBorder": "#0a0b0f",
         "focusBorder": "#676B79",
@@ -561,7 +562,7 @@
                 "comment.block.documentation storage.type.class"
             ],
             "settings": {
-                "foreground": "#DEA6B6"
+                "foreground": "#7BE1E3"
             }
         },
         {
@@ -600,7 +601,7 @@
                 "variable.other.constant"
             ],
             "settings": {
-                "foreground": "#E1AB89"
+                "foreground": "#20B1D2"
             }
         },
         {
@@ -638,7 +639,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#14B5A5",
+                "foreground": "#9586CF",
                 "fontStyle": "italic"
             }
         },
@@ -881,7 +882,7 @@
             ],
             "settings": {
                 "fontStyle": "regular",
-                "foreground": "#DEA6B6"
+                "foreground": "#9586CF"
             }
         },
         {
@@ -1051,7 +1052,7 @@
                 "variable.other.constant.tsx"
             ],
             "settings": {
-                "foreground": "#c4cad1"
+                "foreground": "#20B1D2"
             }
         },
         {
