@@ -4,11 +4,11 @@ maintainers:
   - Eliot Buddé
 semanticClass: theme.dracula.inksea
 semanticHighlighting: true
-softVersion: true
+softVersion: false
 inksea:
   base:
-    - &BG '#282A36'
-    - &FG '#c4cad1'
+    - &BG '#1e1f29'
+    - &FG '#b8c2de'
     - &SELECTION '#44475A'
     - &COMMENT '#6272A4'
     - &CYAN '#5c7bbf'
@@ -45,10 +45,10 @@ inksea:
     - &WHITE '#c4cad1'
     - &TAB_DROP_BG '#44475A70'
     # UI Variants
-    - &BGLighter '#424450'
-    - &BGLight '#343746' # HSV (230   , 25.71, 27.45)
-    - &BGDark '#21222C' # HSV (234.55, 25   , 17.25)
-    - &BGDarker '#191A21' # HSV (234.55, 25   , 13   )
+    - &BGLighter '#1c1f29'
+    - &BGLight '#171921' # HSV (230   , 25.71, 27.45)
+    - &BGDark '#16171f' # HSV (234.55, 25   , 17.25)
+    - &BGDarker '#0e0f14' # HSV (234.55, 25   , 13   )
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:
   # Integrated Terminal Colors

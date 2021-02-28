@@ -53,11 +53,6 @@
 				"path": "./themes/inksea-hacker.json"
 			},
 			{
-				"label": "inkSea Theme Hacker - Soft",
-				"uiTheme": "vs-dark",
-				"path": "./themes/inksea-hacker-soft.json"
-			},
-			{
 				"label": "inkSea Theme Dank",
 				"uiTheme": "vs-dark",
 				"path": "./themes/inksea-dank.json"
@@ -68,14 +63,9 @@
 				"path": "./themes/inksea-dracula.json"
 			},
 			{
-				"label": "inkSea Theme Dracula - Soft",
+				"label": "inkSea Theme Sea Monkey",
 				"uiTheme": "vs-dark",
-				"path": "./themes/inksea-dracula-soft.json"
-			},
-			{
-				"label": "inkSea Theme Trash Panda",
-				"uiTheme": "vs-dark",
-				"path": "./themes/inksea-trash-panda.json"
+				"path": "./themes/inksea-sea-monkey.json"
 			},
 			{
 				"label": "inkSea Theme | Legacy",

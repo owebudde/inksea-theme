@@ -45,10 +45,10 @@ inksea:
     - &WHITE '#c4cad1'
     - &TAB_DROP_BG '#1a1d21'
     # UI Variants
-    - &BGLighter '#31353a'
-    - &BGLight '#242526' # HSV (230   , 25.71, 27.45)
-    - &BGDark '#1d2125' # HSV (234.55, 25   , 17.25)
-    - &BGDarker '#1a1d21' # HSV (234.55, 25   , 13   )
+    - &BGLighter '#12121a'
+    - &BGLight '#101017' # HSV (230   , 25.71, 27.45)
+    - &BGDark '#0e0e12' # HSV (234.55, 25   , 17.25)
+    - &BGDarker '#09090d' # HSV (234.55, 25   , 13   )
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:
