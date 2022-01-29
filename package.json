@@ -63,6 +63,11 @@
 				"path": "./themes/inksea-dracula.json"
 			},
 			{
+				"label": "inkSea Theme Oceanic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/inksea-oceanic.json"
+			},
+			{
 				"label": "inkSea Theme Sea Monkey",
 				"uiTheme": "vs-dark",
 				"path": "./themes/inksea-sea-monkey.json"
