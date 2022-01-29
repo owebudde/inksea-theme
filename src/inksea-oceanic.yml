@@ -45,10 +45,10 @@ inksea:
     - &WHITE '#c4cad1'
     - &TAB_DROP_BG '#1a1d21'
     # UI Variants
-    - &BGLighter '#31353a'
-    - &BGLight '#1a1d21'
+    - &BGLighter '#15171c'
+    - &BGLight '#15171c'
     - &BGDark '#131518'
-    - &BGDarker '#0a0b0f'
+    - &BGDarker '#131518'
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:
   # Integrated Terminal Colors
